@@ -1,4 +1,4 @@
-# Chat control prepper guide (just in case)
+# Chat control 2.0 prepper guide (just in case)
 
 The chat control controversal EU proposal aims at breaking messaging apps end-to-end encryption introducing a state of mass surveillance in Europe. Motivated by the alleged defense of minors on the internet it's in fact violating EU people civil and privacy rights. This proposal could lead to false positives, data leaks and law enforcement abuse.
 
