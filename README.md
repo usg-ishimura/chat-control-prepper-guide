@@ -17,10 +17,12 @@ apt --fix-broken install
 dpkg -i openfire_5.0.1_all.deb
 systemctl start openfire
 apt install ufw
+ufw allow 22  # or the custom port you use for SSH
 ufw allow 9090
 ufw allow 9191
 ufw allow 5222
 ufw allow 5269
+ufw enable
 ```
 At http://domain.federation.org:9090 (a template domain name, you can choose yours) you can follow this setup wizard steps, it would be safer if you completed the setup locally and only then opened ports on firewall:
 
