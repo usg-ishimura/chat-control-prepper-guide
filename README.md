@@ -9,7 +9,7 @@ You will need a VPS and a domain name associated to it from a cloud provider of 
 Once you secured your server and logged with SSH to it, you can run:
 
 ```sh
-wget https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_5.0.1_all.deb -O openfire_5.0.1_all.deb
+wget https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_5.0.2_all.deb -O openfire_5.0.2_all.deb
 sudo su
 apt update
 apt install openjdk-17-jre-headless
