@@ -14,7 +14,7 @@ sudo su
 apt update
 apt install openjdk-17-jre-headless
 apt --fix-broken install
-dpkg -i openfire_5.0.1_all.deb
+dpkg -i openfire_5.0.2_all.deb
 systemctl start openfire
 apt install ufw
 ufw allow 22  # or the custom port you use for SSH
